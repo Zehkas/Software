@@ -19,7 +19,7 @@ Modifica los parámetros con tu usuario y contraseña locales de Oracle
 
 El proyecto se divide en dos terminales independientes: una para el servidor (Backend) y otra para la interfaz (Frontend).
 
-Paso 1: Levantar el Backend (Servidor)
+### Paso 1: Levantar el Backend (Servidor)
 
 Abre tu primera terminal y ejecuta:
 
@@ -31,7 +31,7 @@ Deberías ver un mensaje indicando que el servidor está corriendo (ej. en puert
 
 
 
-Paso 2: Levantar el Frontend (Cliente)
+### Paso 2: Levantar el Frontend (Cliente)
 
 Abre una segunda terminal y ejecuta:
 

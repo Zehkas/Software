@@ -45,7 +45,7 @@ Esto iniciará el entorno de desarrollo y te mostrará la URL local (ej. http://
 ## Vista General de Carpetas
 
 
-🖥️ Frontend
+### Frontend
 
 Carpeta que contiene la interfaz de usuario desarrollada en React.
 
@@ -58,7 +58,7 @@ admin/: Subcarpeta que contiene las vistas exclusivas para el rol de Administrad
 
 
 
-⚙️ Backend
+###  Backend
 
 Carpeta que contiene la lógica del servidor, API y conexión a datos.
 

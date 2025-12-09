@@ -1,5 +1,4 @@
 Manual de Ejecución
-Este documento detalla los requisitos previos, la configuración inicial y los pasos necesarios para levantar el entorno de desarrollo del sistema (Frontend y Backend), y una visión general de la arquitectura.
 
 1. Requisitos Previos
 Para ejecutar este proyecto, tener instalado:

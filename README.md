@@ -1,6 +1,5 @@
-Manual de Ejecución
-
-1. Requisitos Previos
+# Manual de Ejecución
+## Requisitos Previos
 
 Base de Datos: Oracle Database Express Edition (XE) 19c.
 
@@ -8,8 +7,7 @@ Gestión de BD: SQL Developer (para ejecutar scripts y verificar tablas).
 
 Entorno de Ejecución: Node.js.
 
-
-2. Configuración de la Base de Datos
+## Configuración de la Base de Datos
 
 Navega a la carpeta del backend: backend/src/config/
 
@@ -17,8 +15,7 @@ Abre el archivo db.js.
 
 Modifica los parámetros con tu usuario y contraseña locales de Oracle
 
-
-3. Cómo Ejecutar el Proyecto
+## Cómo Ejecutar el Proyecto
 
 El proyecto se divide en dos terminales independientes: una para el servidor (Backend) y otra para la interfaz (Frontend).
 
@@ -45,8 +42,7 @@ npm run dev
 Esto iniciará el entorno de desarrollo y te mostrará la URL local (ej. http://localhost:5173) para acceder desde el navegador.
 
 
-
-4. Vista General de Carpetas
+## Vista General de Carpetas
 
 
 🖥️ Frontend

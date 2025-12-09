@@ -23,26 +23,37 @@ Modifica los parámetros con tu usuario y contraseña locales de Oracle
 El proyecto se divide en dos terminales independientes: una para el servidor (Backend) y otra para la interfaz (Frontend).
 
 Paso 1: Levantar el Backend (Servidor)
+
 Abre tu primera terminal y ejecuta:
+
 cd backend
+
 node index.js
+
 Deberías ver un mensaje indicando que el servidor está corriendo (ej. en puerto 3000).
 
 
+
 Paso 2: Levantar el Frontend (Cliente)
+
 Abre una segunda terminal y ejecuta:
+
 cd frontend
+
 npm run dev
+
 Esto iniciará el entorno de desarrollo y te mostrará la URL local (ej. http://localhost:5173) para acceder desde el navegador.
 
 
-4. Vista General de Carpetas
-A continuación se describe la estructura principal del proyecto y la responsabilidad de cada directorio.
 
+4. Vista General de Carpetas
+5. 
 
 
 🖥️ Frontend
+
 Carpeta que contiene la interfaz de usuario desarrollada en React.
+
 
 src/pages/: Contiene las vistas principales de la aplicación.
 
@@ -53,7 +64,9 @@ admin/: Subcarpeta que contiene las vistas exclusivas para el rol de Administrad
 
 
 ⚙️ Backend
+
 Carpeta que contiene la lógica del servidor, API y conexión a datos.
+
 
 src/config/: Archivos de configuración global, incluyendo la conexión a la base de datos (db.js) y configuraciones para manejo de imágenes.
 

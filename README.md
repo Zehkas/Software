@@ -47,7 +47,6 @@ Esto iniciará el entorno de desarrollo y te mostrará la URL local (ej. http://
 
 
 4. Vista General de Carpetas
-5. 
 
 
 🖥️ Frontend

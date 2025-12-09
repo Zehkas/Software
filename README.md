@@ -1,34 +1,30 @@
 Manual de Ejecución
 
 1. Requisitos Previos
-Para ejecutar este proyecto, tener instalado:
 
 Base de Datos: Oracle Database Express Edition (XE) 19c.
-
 Gestión de BD: SQL Developer (para ejecutar scripts y verificar tablas).
-
 Entorno de Ejecución: Node.js.
 
 2. Configuración de la Base de Datos
-Antes de iniciar el servidor, es fundamental configurar las credenciales de conexión a Oracle.
 
 Navega a la carpeta del backend: backend/src/config/
 Abre el archivo db.js.
 Modifica los parámetros con tu usuario y contraseña locales de Oracle
 
 3. Cómo Ejecutar el Proyecto
+
 El proyecto se divide en dos terminales independientes: una para el servidor (Backend) y otra para la interfaz (Frontend).
 
 Paso 1: Levantar el Backend (Servidor)
 Abre tu primera terminal y ejecuta:
-
 cd backend
 node index.js
 Deberías ver un mensaje indicando que el servidor está corriendo (ej. en puerto 3000).
 
+
 Paso 2: Levantar el Frontend (Cliente)
 Abre una segunda terminal y ejecuta:
-
 cd frontend
 npm run dev
 Esto iniciará el entorno de desarrollo y te mostrará la URL local (ej. http://localhost:5173) para acceder desde el navegador.
@@ -36,6 +32,8 @@ Esto iniciará el entorno de desarrollo y te mostrará la URL local (ej. http://
 
 4. Vista General de Carpetas
 A continuación se describe la estructura principal del proyecto y la responsabilidad de cada directorio.
+
+
 
 🖥️ Frontend
 Carpeta que contiene la interfaz de usuario desarrollada en React.
@@ -45,6 +43,8 @@ src/pages/: Contiene las vistas principales de la aplicación.
 Páginas Generales: Vistas accesibles para todos los usuarios (Home, Catálogo, Login, etc.).
 
 admin/: Subcarpeta que contiene las vistas exclusivas para el rol de Administrador (Gestión de presets, lista de pedidos).
+
+
 
 ⚙️ Backend
 Carpeta que contiene la lógica del servidor, API y conexión a datos.

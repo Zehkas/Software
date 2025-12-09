@@ -80,4 +80,4 @@ src/public/uploads/presets: Contiene la imagen de los presets creados.
 src/public/uploads/custom: Contiene la imagen de los pedidos custom solicitados
 
 
-src/controllers/: Contiene la lógica de negocio. Recibe las peticiones de las rutas, procesa la información y se comunica con los models para obtener o guardar datos.
+src/controllers/: Recibe las peticiones de las rutas, procesa la información y se comunica con los models para obtener o guardar datos.

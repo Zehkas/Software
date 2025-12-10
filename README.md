@@ -1,4 +1,4 @@
-# Manual de Ejecución
+# Integrantes
 Sofia Espinosa
 
 Benjamín Garrido
@@ -9,6 +9,7 @@ Vicente Herrera
 
 Javier Cornejo
 
+# Manual de Ejecución
 
 ## Requisitos Previos
 

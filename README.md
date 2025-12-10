@@ -59,8 +59,6 @@ Esto iniciará el entorno de desarrollo y te mostrará la URL local (ej. http://
 
 ### Frontend
 
-Carpeta que contiene la interfaz de usuario desarrollada en React.
-
 
 src/pages/: Contiene las vistas principales de la aplicación.
 
@@ -71,8 +69,6 @@ admin/: Subcarpeta que contiene las vistas exclusivas para el rol de Administrad
 
 
 ###  Backend
-
-Carpeta que contiene la lógica del servidor, API y conexión a datos.
 
 
 src/config/: Archivos de configuración global, incluyendo la conexión a la base de datos (db.js) y configuraciones para manejo de imágenes.

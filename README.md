@@ -1,4 +1,11 @@
 # Manual de Ejecución
+Sofia Espinosa
+Benjamín Garrido
+Mateo González
+Vicente Herrera
+Javier Cornejo
+
+
 ## Requisitos Previos
 
 Base de Datos: Oracle Database Express Edition (XE) 19c.

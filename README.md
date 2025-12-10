@@ -1,8 +1,12 @@
 # Manual de Ejecución
 Sofia Espinosa
+
 Benjamín Garrido
+
 Mateo González
+
 Vicente Herrera
+
 Javier Cornejo
 
 

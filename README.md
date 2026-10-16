@@ -54,34 +54,4 @@ npm run dev
 Esto iniciará el entorno de desarrollo y te mostrará la URL local (ej. http://localhost:5173) para acceder desde el navegador.
 
 
-## Vista General de Carpetas
-
-
-### Frontend
-
-
-src/pages/: Contiene las vistas principales de la aplicación.
-
-Páginas Generales: Vistas accesibles para todos los usuarios (Home, Catálogo, Login, etc.).
-
-admin/: Subcarpeta que contiene las vistas exclusivas para el rol de Administrador (Gestión de presets, lista de pedidos).
-
-
-
-###  Backend
-
-
-src/config/: Archivos de configuración global, incluyendo la conexión a la base de datos (db.js) y configuraciones para manejo de imágenes.
-
-src/models/: Capa de acceso a datos. Aquí se encuentran las consultas SQL directas a Oracle Database.
-
-src/controllers/: Estos archivos reciben las peticiones desde las rutas, procesan y validan los datos, llaman a las funciones de los models y devuelven las respuestas.
-
-src/routes/: Define los puntos de entrada de la API y los conecta con su controlador correspondiente.
-
-src/public/uploads/presets: Contiene la imagen de los presets creados.
-
-src/public/uploads/custom: Contiene la imagen de los pedidos custom solicitados
-
-
 src/controllers/: Recibe las peticiones de las rutas, procesa la información y se comunica con los models para obtener o guardar datos.
